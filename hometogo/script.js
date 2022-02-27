@@ -121,7 +121,7 @@ data_div.append(divwala)
     p3.addEventListener("click", fun);
     function fun() {
       window.location.href = "details.html";
-      localStorage.setItem("hotel_data", JSON.stringify(elem._id));
+      localStorage.setItem("propertyId", JSON.stringify(elem._id));
       // console.log("here");
     }
 

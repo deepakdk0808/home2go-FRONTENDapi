@@ -39,7 +39,7 @@ function hidedates(){
 }
 
 
-const id=JSON.parse(localStorage.getItem("propertyId"))||"62189b4014bd3339204238f5"
+const id=JSON.parse(localStorage.getItem("propertyId"))
 
 async function getData(id){
   var det=await fetch(`https://home2gowebapi.herokuapp.com/properties/getData/${id}`)
